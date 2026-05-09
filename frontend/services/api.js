@@ -4,7 +4,7 @@ import axios from 'axios';
 // For emulator: http://10.0.2.2:5000/api (Android)
 // For simulator: http://localhost:5000/api (iOS)
 // For physical device: http://YOUR_LOCAL_IP:5000/api
-const BASE_URL = 'http://192.168.0.105:5000/api';
+const BASE_URL = 'https://fittrack-backend-4vpi.onrender.com/api';
 
 const api = axios.create({
   baseURL: BASE_URL,
