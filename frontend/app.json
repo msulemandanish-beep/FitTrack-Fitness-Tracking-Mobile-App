@@ -4,28 +4,43 @@
     "slug": "fittrack",
     "version": "1.0.0",
     "orientation": "portrait",
+
     "icon": "./assets/icon.png",
+
     "userInterfaceStyle": "dark",
+
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#0A0A0A"
     },
+
     "assetBundlePatterns": [
       "**/*"
     ],
+
     "ios": {
       "supportsTablet": false
     },
+
     "android": {
+      "package": "com.msulemandanish.fittrack",
+
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0A0A0A"
       }
     },
+
     "plugins": [
       "expo-font",
       "expo-asset"
-    ]
+    ],
+
+    "extra": {
+      "eas": {
+        "projectId": "8d0789c8-a882-49f6-b5e5-2c81392e0c2c"
+      }
+    }
   }
 }
